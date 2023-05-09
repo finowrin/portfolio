@@ -1,4 +1,4 @@
-import { breakoutImg, pacmanImg, financebookImg } from "../../assets";
+import { breakoutImg, pacmanImg, financebookImg, cantstopImg } from "../../assets";
 import "./Work.css";
 import WorkItem from "./WorkItem";
 
@@ -38,7 +38,7 @@ export default function Work() {
       title: "Can't Stop",
       description:
         "An academic group project based on Cant Stop board game played by 2-4 players and bots with mutliple difficulty levels.",
-      imgUrl: financebookImg,
+      imgUrl: cantstopImg,
       techList: ["Java", "Swing", "UML", "OOPs"],
       // url: "https://financebook-finowrin.vercel.app/",
       // linkList: ["Github", "Show Project"],
