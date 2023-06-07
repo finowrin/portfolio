@@ -45,7 +45,7 @@ export default function Work() {
       category: "Desktop Game",
     },
      {
-      title: "Breakout",
+      title: "Battleship",
       description:
         "A game project based on the classic Battleship board game. It can be played by two players in vs Friend mode or by one player in vs Computer mode.",
       imgUrl: battleshipImg,
