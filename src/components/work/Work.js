@@ -1,4 +1,4 @@
-import { breakoutImg, pacmanImg, financebookImg, cantstopImg } from "../../assets";
+import { breakoutImg, pacmanImg, financebookImg, cantstopImg, battleshipImg } from "../../assets";
 import "./Work.css";
 import WorkItem from "./WorkItem";
 
@@ -41,6 +41,16 @@ export default function Work() {
       imgUrl: cantstopImg,
       techList: ["Java", "Swing", "UML", "OOPs"],
       // url: "https://financebook-finowrin.vercel.app/",
+      // linkList: ["Github", "Show Project"],
+      category: "Desktop Game",
+    },
+     {
+      title: "Breakout",
+      description:
+        "A game project based on the classic Battleship board game. It can be played by two players in vs Friend mode or by one player in vs Computer mode.",
+      imgUrl: battleshipImg,
+      techList: ["Game AI", "OOP", "Curses", "Python"],
+      url: "https://github.com/finowrin/battleship",
       // linkList: ["Github", "Show Project"],
       category: "Desktop Game",
     },
