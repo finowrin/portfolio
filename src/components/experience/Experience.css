@@ -1,0 +1,133 @@
+.experience {
+    background-color: var(--dark-blue);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2rem;
+    /* height: 100vh; */
+}
+
+.experience-heading {
+    color: var(--white);
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color:var(--light-blue);
+}
+
+/*    .experience-heading span {
+        color: var(--light-purple);
+    }*/
+
+.experience-container {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 40%; */
+    width: 70%;
+}
+
+.experience-text {
+    color: var(--text-color);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    color: white;
+}
+
+.experience-item {
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #030514;
+    border: 1px solid #1e293b;
+}
+
+    .experience-item h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .experience-item h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .experience-item p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #bec1dd;
+    }
+
+.left-side p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    padding: 15px 10px;
+}
+
+.tab-pane h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.tab-pane p {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.tab-pane ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .tab-pane ul li {
+        list-style: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        position: relative;
+        padding-left: 20px;
+        line-height: 2.5;
+    }
+
+        .tab-pane ul li::before {
+            content: "▹";
+            position: absolute;
+            left: 0px;
+            color: var(--light-blue);
+        }
+
+.nav-link {
+    color: white;
+    text-align: left;
+}
+
+    .nav-link.active {
+        color: var(--light-blue) !important;
+        background: none !important;
+    }
+
+    .nav-link:hover {
+        color: var(--light-blue) !important;
+        background: transparent !important;
+        box-shadow: none;
+    }
+
+.showmore-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    pointer-events: all;
+}

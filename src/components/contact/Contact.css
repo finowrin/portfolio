@@ -1,0 +1,72 @@
+.contact {
+  background-color: var(--dark-blue);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 2rem;
+  /* height: 100vh; */
+}
+
+.contact-heading {
+  color: var(--light-blue);
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.contact-container {
+  /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 40%; */
+    width: 540px;
+}
+
+.contact-text {
+    color: var(--text-color);
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  gap: 20px; /* Adjust spacing between icons as needed */
+  margin-bottom: 20px; /* Add some space below the icons */
+}
+
+.contact-icon {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  cursor: pointer;
+}
+
+/*.contact-btn {
+  /* Your existing button styles */
+
+
+@media only screen and (max-width: 1200px) {
+  .contact-container {
+    min-width: 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .about-container {
+    align-items: center;
+  }
+  .about-text-zone {
+    text-align: center;
+    width: 80%;
+    padding: 0;
+  }
+
+  .about {
+    padding-top: 0;
+  }
+
+  .skills-container {
+    width: 80%;
+  }
+}
