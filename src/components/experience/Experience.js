@@ -20,13 +20,24 @@ const Experience = () => {
                 <div className="col-6">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
-                            <h4>Customer Experience Associate @ TD Bank</h4>
-                            <p>Mar. 2022 - Present</p>
+                            <h4>Licensed Insurance Agent @ belairdirect</h4>
+                            <p>May. 2025 - Present</p>
                             <ul>
-                                <li>Provide prompt customer service, efficiently resolving inquiries and issues.</li>
-                                <li>Build and maintain strong customer relationships, suggesting tailored banking products.</li>
-                                <li>Assist with financial transactions, including account openings, deposits, withdrawals, and loan applications.</li>
-                                <li>Exceed 100% of quarterly goals, excelling in referrals and customer surveys.</li>
+                                <li>Advise clients on appropriate coverage by assessing needs and generating new business quotes.</li>
+                                <li>Build and manage a growing book of business while supporting customer retention.</li>
+                                <li>Address client concerns with professionalism and provide timely, tailored solutions.</li>
+                                <li>Maintain accurate, confidential records across multiple platforms in line with compliance standards.</li>
+                                <li>Collaborate across departments to resolve issues, improve workflows, and support operational goals.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                            <h4>Customer Experience Associate @ TD Bank</h4>
+                            <p>March 2022 - April 2025</p>
+                            <ul>
+                                <li>Provided prompt customer service, efficiently resolving inquiries and issues.</li>
+                                <li>Built and maintained strong client relationships by recommending tailored banking solutions.</li>
+                                <li>Assisted with financial transactions, including account openings, deposits, withdrawals, and loan applications.</li>
+                                <li>Consistently exceeded quarterly goals, excelling in referrals and customer satisfaction surveys.</li>
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
