@@ -32,7 +32,7 @@ const Experience = () => {
                         </div>
                         <div className="tab-pane fade" id="v-pills-tdbank" role="tabpanel" aria-labelledby="v-pills-tdbank-tab" tabIndex="0">
                             <h4>Customer Experience Associate @ TD Bank</h4>
-                            <p>March 2022 - April 2025</p>
+                            <p>Mar. 2022 - Apr. 2025</p>
                             <ul>
                                 <li>Provided prompt customer service, efficiently resolving inquiries and issues.</li>
                                 <li>Built and maintained strong client relationships by recommending tailored banking solutions.</li>
